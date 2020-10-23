@@ -1,0 +1,56 @@
+
+.midPhotos{
+    height: 420px;
+}
+
+.item{
+    display: none;
+}
+.midPhotos h2{
+    display: block;
+    height: 50px;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+    font-weight: 400;
+    font-size:15px;
+    padding-top:14px;
+    /* background-color: rgb(69, 160, 41); */
+}
+.midPhotos ul li{
+    float: left;
+    width: 220px;
+    height: 265px;
+    /* background-color: antiquewhite; */
+    margin-left:23px;
+}
+
+.midPhotos ul li:first-child{
+    margin-left: 0px;
+}
+
+
+.midPhotos ul li img{
+    width: 220px;
+    height: 124px;
+}
+
+.midPhotos .head{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-weight: 550;
+    font-size:15px;
+    color: black;
+}
+
+.midPhotos .head:hover{
+    background-color: #fdff92;
+    border-bottom: 1px dotted black;
+}
+
+.midPhotos .content{
+    margin-top: 5px;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-size:11px;
+    line-height: 12px;
+    color: #aaa7a7;
+    margin:5px 0;
+}

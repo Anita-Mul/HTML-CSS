@@ -1,0 +1,347 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ezrit2');
+    src:  url('../fonts/icomoon.eot?ezrit2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ezrit2') format('truetype'),
+      url('../fonts/icomoon.woff?ezrit2') format('woff'),
+      url('../fonts/icomoon.svg?ezrit2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body{
+    display: block;
+    background-image: url(../images/background.jpg);
+    background-position: -80px -140px; 
+    
+}
+
+/* -------------------------------- */
+/* 四个图片+登录、注册 */
+.center{
+    width:970px;
+    margin-left: 386px;
+    background-color: black;
+}
+
+.centerWhite{
+    width:970px;
+    margin-left: 386px;
+    background-color: white;
+    padding-left:20px;
+}
+
+.top-Search{
+    height:78px;
+    margin-top:170px;
+    background-color:black;
+}
+
+.fourPicture ul li{
+    float: left;
+    margin-left:20px;
+}
+
+.LOG{
+    float: right;
+}
+
+.LOG ul li:nth-child(-n+3){
+    float: left;
+    margin-left:25px;
+    color:#A6A6A7;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.LOG ul li:last-child{
+    float: left;
+    background-color: red;
+    height:23px;
+    margin-top:3px;
+}
+
+.LOG a:hover{
+    color:#878a7f;
+}
+
+.LOG input{
+    padding-left:8px;
+    margin-top: -2px;
+    padding-bottom: 3px;
+    background-color: #7f7f7f;
+    width: 135px;
+    height: 23px;
+}
+
+.LOG input::placeholder {
+    color: #4d4b4b;
+    font-size: 11px;
+}
+
+.FangDaJin::after{
+    font-family: 'icomoon';
+    content: '\e986'; 
+    color:#4d4b4b;
+    font-size:15px;
+}
+
+.FangDaJin{
+    height:23px;
+    width:23px;
+    background-color: #7f7f7f;
+    padding-bottom: 4px;
+    text-align: center;
+    padding-top:1px;
+}
+
+/* ----------------------- */
+/* 灰色那一栏 */
+.Three{
+    background-color: #181919;
+    height:40px;
+}
+
+.Three ul{
+    float:right;
+    height:40px;
+    background-color: #181919;
+}
+.Three ul li{
+    float: left;
+    background-color: #181919;
+    margin-right:40px;
+    margin-top:8px;
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    letter-spacing: 0.25em;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Three ul li:hover{
+    color: #ffcc00;
+}
+
+
+.Three ul li::after{
+    content: '\ea50';
+    font-family: 'icomoon';
+    background-color: #181919;
+    margin-left: 5px;
+}
+
+/* -------------------------------------------- */
+/* 大图片的处理和英文 */
+
+/* 注意这里得用后面的处理透明度 */
+.bigPicture{
+    background: url(../images/BigMan.jpg);
+    background-position: center -100px;
+    height: 280px;
+} 
+
+
+.bigPicture .English ul{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+
+.bigPicture .English ul li:first-child{
+    color:#fff;
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.25em;
+}
+
+.bigPicture .middle{
+    color:#fff;
+    font-size: 14px;
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT;
+    font-weight: 400px;
+    letter-spacing: 0.25em;
+}
+
+.bigPicture .English ul li:last-child{
+    color:#fff;
+    font-size: 13px;
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT;
+    font-weight: 400px;
+    letter-spacing: 0.25em;
+}
+
+/* --------------------------------------------------- */
+/* 五个导航栏 */
+
+.five ul li{
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size:14px;
+    font-weight: 200;
+    letter-spacing: 0.25em;
+    float: left;
+    background-color: black;
+    margin-right: 3px;
+    height: 37px;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 37px;
+    color:white;
+}
+
+.five ul li:hover{
+    color:rgb(104, 96, 96);
+}
+.five ul{
+    position: relative;
+    top:98px;
+    margin-left:20px;
+    background-color: aqua;
+}
+
+.five ul li:last-child::after{
+    font-family: 'icomoon';
+    content: '\ea50';
+    margin-left: 3px;
+    padding-left:6px;
+    padding-top:-10px;
+}
+/* ---------------------------------------------------- */
+
+/* 那底部的more on history */
+.bottomPicture{
+    padding-bottom: 15px;
+    margin-top:-1px;
+    width: 1000px!important;
+}
+.bottomPicture h2{
+    color: #000000;
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-weight: 400!important;
+    letter-spacing: 0.25em;
+    font-size: 15px;
+    padding: 10px 8px 8px;
+}
+/* 那底部的四张图片 */
+.bottomPicture ul{
+    height: 188.6px;
+}
+
+.bottomPicture ul li{
+    float: left;
+    height: 138px;
+}
+.bottomPicture ul li:nth-child(odd){
+    width: 228px;
+    border: 1px solid rgb(201, 195, 195);
+    text-align: center;
+    line-height: 138px;
+    margin-left: 4px;
+    box-shadow: 0px 0px 3px;
+}
+.bottomPicture ul li:nth-child(even){
+    background-color: rgb(201, 195, 195);
+    width:1px;
+    margin-left: 4px;
+    height: 178px;
+}
+
+.bottomPicture img{
+    width: 220px;
+    height: 124px;
+}
+
+/* 图片下面的字体 */
+.bottomPicture ul li div{
+    height:20px;
+    color: #000000;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left:4px;
+}
+
+.bottomPicture ul li div a{
+    color: #000000;
+}
+
+.bottomPicture ul li div a:hover{
+    background-color: #fdff92;
+    border-bottom: 1px dotted black;
+}
+
+/* 底部的灰色带 */
+.bottomGrey ul{
+    background-color: #494949;
+    width: 970px;
+    margin-left: -20px;
+    height: 62px;
+    line-height: 62px;
+}
+.bottomGrey ul li{
+    float:left;
+    margin: 0 10px;
+}
+
+/*最底部的标题*/
+.title ul{
+    height:60px;
+    line-height: 60px;
+
+}
+.title ul li{
+    float: left;
+    margin-left:20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title a:hover{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* 底部四大栏 */
+.fourContent{
+    height: 470px;
+}
+.fourContent .out{
+    float: left;
+    margin:0 15px;
+}
+
+.fourContent .out .bottom:last-child{
+    margin-top: 30px;
+}
+
+.fourContent .out a{
+    color: #999;
+    font-weight: normal;
+    font-size: 11px;
+}
+.fourContent .out a:hover{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+.fourContent h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.end{
+    float: left;
+    height: 180px!important;
+    margin-left:-310px!important;
+    width:1500px;
+    font-weight: 300;
+    margin-top:-175px!important;
+    color: white;
+    background-color: black;
+    padding-left: 340px;
+    padding-top:50px;
+}

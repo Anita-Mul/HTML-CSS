@@ -1,0 +1,96 @@
+
+.midAbout{
+    width:950px;
+    height: 1021.4px;
+    /* background-color: aqua; */
+}
+
+.item{
+    display: none;
+}
+
+.midAbout .left{
+    float: left;
+    width:620px;
+    height: 1021.4px;
+    /* background-color: aquamarine; */
+}
+
+.midAbout .left h2{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+    color:black;
+    font-size: 15px;
+    margin:15px 0;
+    font-weight: 400;
+}
+
+.midAbout .left div{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-size:13px;
+    line-height: 16px;
+    color: #808080;
+}
+
+/* —————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+.midAbout .right{
+    float: left;
+    width: 300px;
+    height: 1021.4px;
+    /* background-color: palevioletred; */
+    margin-left: 30px;
+}
+
+.midAbout .right .T{
+    color:#A6A6A7;
+    margin-top: 15px;
+}
+
+.midAbout .right .topPicture{
+    /* background-color: bisque; */
+    margin-top:378px;
+}
+
+.right h2{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+    font-weight: 400;
+    font-size:15px;
+    color: black;
+}
+
+.right .bottomPicture{
+    /* background-color: rgb(79, 180, 104); */
+    width: 300px!important;
+}
+
+.right .bottomPicture img{
+    display: block;
+    width: 300px;
+    height: 169px;
+}
+
+.right .head{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-weight: 550;
+    font-size:15px;
+    color: black;
+    margin:5px 0;
+}
+
+.right .content{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-size:12px;
+    line-height: 13px;
+    color: #808080;
+    margin:5px 0;
+}
+
+.right .ending{
+    padding-left: 136px;
+}
+
+.right .ending1{
+    padding-left:167px;
+}

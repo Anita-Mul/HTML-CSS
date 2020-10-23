@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ezrit2');
+    src:  url('../fonts/icomoon.eot?ezrit2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ezrit2') format('truetype'),
+      url('../fonts/icomoon.woff?ezrit2') format('woff'),
+      url('../fonts/icomoon.svg?ezrit2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.midHome{
+    height: 1632.4px;
+}
+
+.item{
+    display: block;
+}
+
+.midHome .left{
+    float: left;
+    width: 620px;
+    height: 1632.4px;
+}
+
+/* 上面的导航栏开始 */
+.topDaohang{
+    height: 80px;
+    line-height: 80px;
+}
+.topDaohang h2{
+    float: left;
+}
+
+.topDaohang ul{
+    float: right;
+}
+
+/*
+.topDaohang ul li:first-child::before{
+
+    font-family: 'icomoon';
+    content: '\ea51';
+    color:#454547;
+    font-weight: 1000;
+    padding-top: 10px;
+}
+
+.topDaohang ul li:last-child::after{
+    font-family: 'icomoon';
+    content: '\ea52';
+    color:#454547;
+    font-weight: 1000;
+    padding-top: 10px;
+}
+
+*/
+.topDaohang ul li{
+    float: left;
+    margin: 0 5px;
+}
+
+.topDaohang a{
+    color: black;
+    font-weight: 1000;
+}
+
+.topDaohang h2{
+    color: #000000;
+    font-size: 16px!important;
+    font-family: 'Geograph', "Gotham A", "Gotham B", "CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-weight: 400!important;
+    letter-spacing: 0.25em;
+}
+
+.topDaohang a:hover{
+    color:grey;
+}
+/* 上面的导航栏结束 */
+
+/* 视频模块开始 */
+.shiping{
+    height: 286.4px;
+    border-bottom: 1px dotted grey;
+}
+
+.shiping ul li{
+    float: left;
+    width: 300px;
+}
+
+.shiping ul li:first-child{
+    margin-right: 22px;
+}
+
+.shiping .head{
+    display: block;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    text-transform: none!important;
+    font-weight: bold;
+    color: #000;
+    font-size:14px;
+    margin:5px 0;
+}
+
+.shiping .content{
+    color:#808080;
+    font-size: 11px;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    line-height: 13px;
+    margin-bottom: 4px;
+}
+
+.shiping .minute{
+    color: #000;
+    font-size: 11px;
+}
+
+
+.shiping .All a{
+    display: block;
+    float: right;
+    width: 119.8px;
+    height: 23px;
+    color: black;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+    margin-top:15px;
+    text-align: center;
+    padding-left: 19px;
+    font-size: 12px;
+}
+
+/* 视频模块结束 */
+
+/* 下面的两张图片 */
+.GALLERIES{
+    width: 160px!important;
+    text-align: right!important;
+}
+
+/* 下面的文字 */
+.HText{
+    width: 380px;
+    height: 284.2px;
+    padding-top:30px;
+}
+
+.HText h2{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+    font-weight: 400;
+    font-size:15px;
+    margin-bottom: 8px;
+}
+
+.HText div{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-size:12px;
+    line-height: 13px;
+    color: #808080;
+}
+
+.HText a{
+    display: block;
+    height: 50px;
+    padding-left: 250px;
+    padding-top:15px;
+    color: #000;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.midHome .right{
+    float: left;
+    width:300px;
+    margin-left:30px;
+    height: 1632.4px;
+    /* background-color: rgb(144, 180, 148); */
+    padding-right: 20px;
+}
+
+.right .yellow{
+    height: 20px;
+    background-color: #FDD700;
+    border-bottom:2px solid #aca9a9;
+    margin-top:25px;
+
+}
+
+.right .title{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    letter-spacing: 0.25em;
+    color:black;
+    font-size: 15px;
+    margin:7px 0;
+    padding-bottom: 10px;
+}
+
+.right .threepicture img{
+    width: 280px;
+    margin-top: 8px;
+}
+
+.right .E1{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-weight: 800;
+    margin-top:20px;
+    color: #a8a6a6;
+}
+
+.right .E2{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    margin-top:20px;
+    color: #b1adad;
+}
+
+/* 那四张图片 */
+.fourpicture{
+    margin-top:300px;
+}
+.fourpicture .p{
+    display: block;
+    width: 300px;
+    height: 170px;
+    border: 1px solid #aca9a9;
+    box-shadow: 0px 0px 2px;
+    padding: 5px 9px;
+    margin-left: -5px;
+}
+
+.fourpicture img{
+    width:280px;
+}
+
+.fourpicture .h{
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-weight: 600;
+    margin:4px 0;
+}
+
+.fourpicture div{
+    font-family: "Geograph", Helvetica, "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+    font-size:12px;
+    line-height: 13px;
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.fourpicture ul li:nth-child(-n + 3){
+    border-bottom: #d1cccc dotted 1px;
+    margin-bottom: 18px;
+}
